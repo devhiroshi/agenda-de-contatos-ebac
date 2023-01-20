@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contato</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="logo">
+            <h1>AGENDA DE CONTATO</h1>
+        </header>
+
+        <form id="form-id">
+            <input type="text" required placeholder="Digite o nome do contato.." id="contato-nome">
+            <!--O INPUT TYPE PODERIA SER TEXT, OU NUMBER TAMBEM.. MAS COLOQUEI TEL..-->
+            <input type="tel" required placeholder="Digite o telefone do contato.." id="contato-num">
+        
+            <button type="submit">Cadastrar +</button>
+        </form>
+
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>NOME | CONTATO :</th>
+                    <th>NUMERO | TELEFONE :</th>
+                </tr>
+            </thead>
+
+            <tbody></tbody>
+            
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
