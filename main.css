@@ -26,13 +26,13 @@ header {
 }
 
 header img {
-    height: 60px;
+    height: 40px;
     margin-right: 16px;
 
 }
 
 header h1 {
-    font-size: 60px;
+    font-size: 38px;
     font-weight: bold;
     padding: 10px;
     border-radius: 8px;
@@ -47,7 +47,7 @@ form {
 }
 
 form input {
-    font-size: 24px;
+    font-size: 20px;
     background-color: beige;
     border: none;
     padding: 8px;
@@ -63,7 +63,7 @@ form input:hover {
 form button {
     background-color: black;
     color: azure;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     cursor: pointer;
@@ -84,8 +84,9 @@ table {
 table th {
     border-bottom: 2px solid azure;
     padding: 16px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
+    letter-spacing: 4PX;
 }
 
 table td {
